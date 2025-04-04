@@ -1,0 +1,6 @@
+ 
+
+syntax = "proto3";
+package eos.statistics;
+option go_package = "github.com/eos/protocol/statistics";
+
