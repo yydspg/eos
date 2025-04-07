@@ -1,4 +1,4 @@
-package cahceutil
+package cacheutil
 
 import "sync"
 
