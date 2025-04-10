@@ -49,7 +49,7 @@ func toString(s string, kv []any) string {
 		buf.WriteString(s)
 		for i := 0; i < len(kv); i += 2 {
 			if buf.Len() > 0 {
-				buf.WriteString(",")
+				buf.WriteString(", ")
 			}
 			key := fmt.Sprintf("%v", kv[i])
 			buf.WriteString(key)
